@@ -1,2 +1,2 @@
-nothing here,just my homework.
-and djt.
+Just a homework.
+Github Desktop of CLZ is ready.
