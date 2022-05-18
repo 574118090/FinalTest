@@ -1,7 +1,6 @@
 #pragma once
 #include<iostream>
 #include<stdio.h>
-#include"polygon.h"
 using namespace std;
 class Caculate {
 public:

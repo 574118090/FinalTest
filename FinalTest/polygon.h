@@ -1,13 +1,13 @@
-#pragma once
 #include"point.h"
-#include"caculate_output.h"
-class polygon2 {
-	friend class Caculate;
-/*public:
+class polygon {
+public:
 	polygon();
 	polygon(int _size);
 
+	void AddPoint(point a);
+	void OutputPoint();
 private:
+	point* pointCase;
 	int size;
-	//point *pointCase=new point();*/
+	int pointMalloc;
 };

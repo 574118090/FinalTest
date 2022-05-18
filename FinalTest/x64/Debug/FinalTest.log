@@ -1,11 +1,2 @@
-﻿  caculate_output.cpp
-  line-segment.cpp
-  line.cpp
-  main.cpp
-  point.cpp
-  polygon.cpp
-  vec.cpp
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\point.h(18,6): error C2143: 语法错误: 缺少“;”(在“-”的前面)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\point.h(18,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\point.h(18,32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-  正在生成代码...
+﻿  polygon.cpp
+  FinalTest.vcxproj -> F:\作业\面向对象\FinalTest\FinalTest\FinalTest\x64\Debug\FinalTest.exe
