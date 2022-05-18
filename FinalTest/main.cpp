@@ -7,6 +7,6 @@ signed main() {
 	vec testPoint2(3, 4);
 	vec tesP = testPoint - testPoint2;
 	point outp(1,1);
-	tesP.Output();
+	cout << Caculate::Cross(1, 1, 1, 1);
 	return 0;
 }

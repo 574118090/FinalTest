@@ -146,6 +146,7 @@
     <ClInclude Include="line.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="caculate_output.cpp" />
     <ClCompile Include="line-segment.cpp" />
     <ClCompile Include="line.cpp" />
     <ClCompile Include="main.cpp" />
