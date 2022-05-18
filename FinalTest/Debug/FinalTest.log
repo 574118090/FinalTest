@@ -1,0 +1,14 @@
+﻿  main.cpp
+  vec.cpp
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\caculate_output.h(5,6): error C2182: “CaculateOutput”: 非法使用“void”类型
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\caculate_output.h(5,21): error C2065: “point”: 未声明的标识符
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\caculate_output.h(5,27): error C2146: 语法错误: 缺少“)”(在标识符“a”的前面)
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\caculate_output.h(5,30): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\caculate_output.h(5,30): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(4,14): error C2365: “CaculateOutput”: 重定义；以前的定义是“数据变量”
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\caculate_output.h(5): message : 参见“CaculateOutput”的声明
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.cpp(11,12): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.cpp(11,10): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.cpp(18,13): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.cpp(18,10): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
