@@ -10,8 +10,8 @@ signed main() {
 	point outp(1,1);
 	cout << Caculate::Cross(1, 1, 1, 1);
 
-	//line a(1,1,2,2);
-	//a.Output();
+	lineSegment a(1,1,2,2);
+    a.line::Output();
 
 	return 0;
 }

@@ -9,9 +9,14 @@ lineSegment::lineSegment() {
 	startPoint = point();
 	endPoint = point();
 }
+
 lineSegment::lineSegment(double x1, double y1, double x2, double y2) {
 	startPoint = point(x1, y1);
 	endPoint = point(x2, y2);
 }
 
+ void lineSegment::Output() {
+	cout << "Æðµã:"; startPoint.Output();
+	cout << "ÖÕµã:"; endPoint.Output();
+}
  
