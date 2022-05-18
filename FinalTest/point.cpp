@@ -23,3 +23,10 @@ double point::GetPointDistance(const point a, const point b)
 {
 	return sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
 }
+
+vec point::operator-(const point b)
+{
+	return vec(x - b.x, y - b.y);
+}
+
+

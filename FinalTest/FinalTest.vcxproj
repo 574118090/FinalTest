@@ -142,6 +142,7 @@
     <ClInclude Include="caculate_output.h" />
     <ClInclude Include="line-segment.h" />
     <ClInclude Include="point.h" />
+    <ClInclude Include="polygon.h" />
     <ClInclude Include="vec.h" />
     <ClInclude Include="line.h" />
   </ItemGroup>
@@ -151,6 +152,7 @@
     <ClCompile Include="line.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="point.cpp" />
+    <ClCompile Include="polygon.cpp" />
     <ClCompile Include="vec.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
