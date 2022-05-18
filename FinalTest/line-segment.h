@@ -5,8 +5,10 @@
 #include"vec.h"
 
 class lineSegment :public line {
-
-
+public:
+	lineSegment();
+	lineSegment(double x1,double y1,double x2,double y2);
 private:
-
+	point startPoint;
+	point endPoint;
 };

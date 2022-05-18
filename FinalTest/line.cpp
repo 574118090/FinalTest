@@ -22,3 +22,11 @@ int line::CompareWithPoint(double x1, double y1, double v1, double v2) {
 	else if (res == 0)return 2;//在直线上
 	else return 3;//在直线下方
 }
+
+void line::Output() {
+	cout << "过直线一点：";
+	p.Output();
+	cout << "方向向量";
+	v.Output();
+
+}
