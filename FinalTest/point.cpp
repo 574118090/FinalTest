@@ -2,7 +2,7 @@
 point::point() {
 	x = 0, y = 0;
 }
-point::point(int _x, int _y) {
+point::point(double _x, double _y) {
 	x = _x, y = _y;
 }
 bool point::CompareWithX(point a, point b)

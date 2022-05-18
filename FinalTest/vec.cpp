@@ -2,7 +2,7 @@
 vec::vec() {
 
 }
-vec::vec(int _x, int _y)
+vec::vec(double _x, double _y)
 {
 	x = _x, y = _y;
 }
