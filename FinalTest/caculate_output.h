@@ -2,6 +2,7 @@
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-void CaculateOutput(point a) {
-	cout << "(" << a.x << "," << a.y << ")" << endl;
-}
+class Caculate {
+public:
+	static double Cross(double x1, double y1, double x2, double y2);
+};

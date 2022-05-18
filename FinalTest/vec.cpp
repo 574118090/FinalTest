@@ -1,10 +1,16 @@
+#pragma once
+#include<iostream>
 #include "vec.h"
 vec::vec() {
-
+	x = 0, y = 0;
 }
 vec::vec(double _x, double _y)
 {
 	x = _x, y = _y;
+}
+void vec::Output()
+{
+	std::cout << "(" << x << "," << y << ")\n";
 }
 vec vec::operator-(const vec b)
 {

@@ -1,10 +1,14 @@
 #pragma once
 #include"caculate_output.h"
 class vec {
-	friend void CaculateOutput(vec a);
 public:
 	vec();
 	vec(double _x, double _y);
+
+
+	void Output();
+
+
 	vec operator -(vec b);
 	vec operator +(vec b);
 private:

@@ -1,11 +1,16 @@
 #pragma once
 class point {
-	friend void CaculateOutput(point a);
 public:
 	point();
 	point(double _x, double _y);
-	static bool CompareWithX(point a, point b);
-	static bool CompareWithY(point a, point b);
+
+
+	void Output();
+	
+
+	static bool CompareWithX(const point a, const point b);
+	static bool CompareWithY(const point a, const point b);
+	static double GetPointDistance(const point a, const point b);
 private:
 	double x, y;
 };
