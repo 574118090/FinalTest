@@ -3,6 +3,7 @@
 #include"caculate_output.h"
 class point {
 	friend class Caculate;
+	friend class lineSegment;
 public:
 	point();
 	point(double _x, double _y);
