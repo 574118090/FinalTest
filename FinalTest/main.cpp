@@ -8,10 +8,11 @@ signed main() {
 	point b(1, 1);
 	point c(2, 0);
 	
-	polygon pl(3);
-	pl.AddPoint(a);
-	pl.AddPoint(b);
-	pl.AddPoint(c);
-	pl.OutputPoint();
+	polygon pl(100);
+	pl.AddPoint(point(0, 0));
+	pl.AddPoint(point(0, 2));
+	pl.AddPoint(point(2, 2));
+	pl.AddPoint(point(2, 0));
+	std::cout << pl.GetC();
 	return 0;
 }

@@ -29,4 +29,9 @@ vec point::operator-(const point b)
 	return vec(x - b.x, y - b.y);
 }
 
+bool point::operator==(const point b)
+{
+	return x==b.x && y==b.y;
+}
+
 
