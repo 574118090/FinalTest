@@ -24,6 +24,12 @@
     <ClInclude Include="caculate_output.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="line-segment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="point.cpp">
@@ -33,6 +39,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="line-segment.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
