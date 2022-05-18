@@ -1,10 +1,13 @@
-#include<vector>
+#pragma once
 #include"point.h"
-class polygon {
-public:
+#include"caculate_output.h"
+class polygon2 {
+	friend class Caculate;
+/*public:
 	polygon();
-
+	polygon(int _size);
 
 private:
-	std::vector<point> pointCase;
+	int size;
+	//point *pointCase=new point();*/
 };

@@ -1,6 +1,8 @@
 #pragma once
 #include"vec.h"
+#include"caculate_output.h"
 class point {
+	friend class Caculate;
 public:
 	point();
 	point(double _x, double _y);
