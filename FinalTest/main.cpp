@@ -3,6 +3,7 @@
 #include"vec.h"
 #include"caculate_output.h"
 #include"polygon.h"
+#include"line-segment.h"
 signed main() {
 	point a(0, 0);
 	point b(1, 1);
@@ -14,5 +15,7 @@ signed main() {
 	pl.AddPoint(point(2, 2));
 	pl.AddPoint(point(2, 0));
 	std::cout << pl.GetC();
+
+
 	return 0;
 }

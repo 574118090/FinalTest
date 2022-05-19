@@ -5,6 +5,7 @@ class point {
 	friend class Caculate;
 	friend class polygon;
 	friend class lineSegment;
+	friend class circle;
 public:
 	point();
 	point(double _x, double _y);

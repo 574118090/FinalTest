@@ -1,6 +1,7 @@
 #pragma once
 #include"caculate_output.h"
 class vec {
+	friend class lineSegment;
 public:
 	vec();
 	vec(double _x, double _y);

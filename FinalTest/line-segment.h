@@ -10,7 +10,8 @@ public:
 	lineSegment(double x1,double y1,double x2,double y2);//起点和终点
 	virtual void Output();
 	double distant(point a, point b);
-	void judgeRelationship(lineSegment a, lineSegment b);
+	int ifCoincide(lineSegment b);//是否重合
+	int ifIntersect(lineSegment b);//是否相交
 private:
 	point startPoint;
 	point endPoint;

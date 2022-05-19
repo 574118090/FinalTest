@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="caculate_output.h" />
+    <ClInclude Include="circle.h" />
     <ClInclude Include="line-ray.h" />
     <ClInclude Include="line-segment.h" />
     <ClInclude Include="point.h" />
@@ -149,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="caculate_output.cpp" />
+    <ClCompile Include="circle.cpp" />
     <ClCompile Include="line-ray.cpp" />
     <ClCompile Include="line-segment.cpp" />
     <ClCompile Include="line.cpp" />

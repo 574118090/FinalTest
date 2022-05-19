@@ -1,2 +1,9 @@
-﻿  main.cpp
+﻿  circle.cpp
+  line-ray.cpp
+  line-segment.cpp
+  line.cpp
+  main.cpp
+  point.cpp
+  polygon.cpp
+  正在生成代码...
   FinalTest.vcxproj -> E:\github_file\FinalTest\FinalTest\Debug\FinalTest.exe
