@@ -19,6 +19,11 @@ lineSegment::lineSegment(double x1, double y1, double x2, double y2) {
 	endPoint = point(x2, y2);
 }
 
+lineSegment::lineSegment(point a, point b) {
+	startPoint = a;
+	endPoint = b;
+}
+
  void lineSegment::Output() {
 	cout << "Æðµã:"; startPoint.Output();
 	cout << "ÖÕµã:"; endPoint.Output();

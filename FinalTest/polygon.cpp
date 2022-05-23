@@ -1,6 +1,7 @@
 #pragma once
 #include"polygon.h"
 #include"caculate_output.h"
+#include"line-segment.h"
 #include<iostream>
 polygon::polygon()
 {
@@ -107,8 +108,15 @@ int polygon::PointPosition(point a, polygon b)
 {
 	point c = point(a.x + 0.1, a.y + 0.1);
 	c.x *= 114514, c.y *= 114514;
+	edge* flag = b.pointFst;
 	if (polygon::OnPolygon(a, b))return 1;
+	for (register int i = 0; i < b.pointMalloc; i++) {
+		point nowP = flag->p;
+		point nowQ = flag->next->p;
+		flag = flag->next;
 
+		lineSegment now1 = new lineSegment(p, q);
+	}
 	return 2;
 }
 
@@ -128,6 +136,8 @@ double polygon::GetC() {
 	for (register int i = 0; i < pointMalloc; i++) {
 		sum += point::GetPointDistance(flag->p, flag->next->p);
 		flag = flag->next;
+
+
 	}
 	return abs(sum);
 }

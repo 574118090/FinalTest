@@ -8,6 +8,7 @@ class lineSegment :public line {
 public:
 	lineSegment();
 	lineSegment(double x1,double y1,double x2,double y2);//起点和终点
+	lineSegment(point a, point b);
 	virtual void Output();
 	double distant(point a, point b);
 	int ifCoincide(lineSegment b);//是否重合
