@@ -2,6 +2,7 @@
 #include"caculate_output.h"
 class vec {
 	friend class polygon;
+	friend class Caculate;
 public:
 	vec();
 	vec(double _x, double _y);
