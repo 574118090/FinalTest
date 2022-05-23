@@ -165,7 +165,7 @@ signed main() {
 			double y2 = read(cmd);
 			lineSegmentTot.push_back(lineSegment(x1, y1, x2, y2));
 		    updateCls = true;
-	}
+	     }
 		else if (cmd.find("Line") < cmd.size()) {
 			cutPlace = 0;
 			double x1 = read(cmd);
