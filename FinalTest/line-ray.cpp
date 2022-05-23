@@ -16,6 +16,6 @@ lineRay::lineRay(double x1, double y1, double x2, double y2) {
 }
 
 void lineRay::Output() {
-	cout << "起始点"; startPoint.Output();
-	cout << "方向向量"; v.Output();
+	cout << "Across:"; startPoint.SimpleOutput();
+	cout << "vector:"; v.Output();
 }

@@ -12,6 +12,11 @@ void vec::Output()
 {
 	std::cout << "(" << x << "," << y << ")\n";
 }
+
+void vec::SimpleOutput() {
+	std::cout << "(" << x << "," << y << ")";
+}
+
 vec vec::operator-(const vec b)
 {
 	vec res(x,y);

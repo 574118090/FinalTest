@@ -24,9 +24,10 @@ int line::CompareWithPoint(double x1, double y1, double v1, double v2) {
 }
 
 void line::Output() {
-	cout << "过直线一点：";
-	p.Output();
-	cout << "方向向量";
-	v.Output();
+	cout << "Cross:";
+	p.SimpleOutput();
+	cout << "vector:";
+	v.SimpleOutput();
+	puts("");
 
 }

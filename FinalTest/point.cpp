@@ -28,6 +28,11 @@ double point::GetPointDistance(const point a, const point b)
 	return sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
 }
 
+double point::GetCross(const point a, const point b)
+{
+	return Caculate::Cross(a.x, a.y, b.x, b.y);
+}
+
 vec point::operator-(const point b)
 {
 	return vec(x - b.x, y - b.y);

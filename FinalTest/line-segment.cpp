@@ -25,8 +25,10 @@ lineSegment::lineSegment(point a, point b) {
 }
 
  void lineSegment::Output() {
-	cout << "Æğµã:"; startPoint.Output();
-	cout << "ÖÕµã:"; endPoint.Output();
+	 cout << "From: ";
+	 startPoint.SimpleOutput();
+	 cout << " to: ";
+	 endPoint.Output();
 }
 
  double lineSegment:: distant(point a, point b) {

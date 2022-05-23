@@ -10,6 +10,8 @@ public:
 
 	void Output();
 
+	void SimpleOutput();
+
 	vec operator -(vec b);
 	vec operator +(vec b);
 private:
