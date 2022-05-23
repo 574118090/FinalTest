@@ -6,6 +6,7 @@
 #include"vec.h"
 #include"caculate_output.h"
 #include"polygon.h"
+#include"line-segment.h"
 using namespace std;
 int cutPlace;
 void ChangeFinger(int x,int y) {
@@ -75,6 +76,7 @@ signed main() {
 
 	vector<point> pointTot;
 	vector<polygon> polygonTot;
+	vector<lineSegment> lineSegmentTot;
 	//vector<line>
 	while (1) {
 		if (updateCls) {
@@ -118,6 +120,8 @@ signed main() {
 			puts("input \'PolygonPoint:i(x,y)\' to add a point in polygon(i).");
 			ClearOne();
 			puts("input Point:(x,y) to creat a point.");
+			ClearOne();
+			puts("input Line-segment:(x1,y1,x2,y2) to creat a line-segment.");
 			//先在这里加两行
 		}
 		ClearOne();
@@ -146,6 +150,13 @@ signed main() {
 			double y = read(cmd);
 			pointTot.push_back(point(x, y));
 		}
+		else if (cmd.find("Line-segment") < cmd.size()) {
+			cutPlace = 0;
+			double x1 = read(cmd);
+			double y1 = read(cmd);
+			double x2 = read(cmd);
+			double y2 = read(cmd);
+			lineSegmentTot.push_back(lineSegment(x1, y1, x2, y2));
 		updateCls = true;
 	}
 	return 0;

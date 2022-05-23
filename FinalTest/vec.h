@@ -3,6 +3,7 @@
 class vec {
 	friend class polygon;
 	friend class Caculate;
+	friend class lineSegment;
 public:
 	vec();
 	vec(double _x, double _y);
