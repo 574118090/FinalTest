@@ -7,6 +7,7 @@
 #include"caculate_output.h"
 #include"polygon.h"
 #include"line-segment.h"
+#include"line-ray.h"
 using namespace std;
 int cutPlace;
 void ChangeFinger(int x,int y) {
@@ -77,6 +78,8 @@ signed main() {
 	vector<point> pointTot;
 	vector<polygon> polygonTot;
 	vector<lineSegment> lineSegmentTot;
+	vector<line>lineTot;
+	vector<lineRay>lineRayTot;
 	//vector<line>
 	while (1) {
 		if (updateCls) {
@@ -122,6 +125,10 @@ signed main() {
 			puts("input Point:(x,y) to creat a point.");
 			ClearOne();
 			puts("input Line-segment:(x1,y1,x2,y2) to creat a line-segment.");
+			ClearOne();
+			puts("input Line:(x1,y1,x2,y2) to creat a line.");
+			ClearOne();
+			puts("input Line-ray:(x1,y1,x2,y2) to creat a line-ray.");
 			//先在这里加两行
 		}
 		ClearOne();
@@ -157,7 +164,25 @@ signed main() {
 			double x2 = read(cmd);
 			double y2 = read(cmd);
 			lineSegmentTot.push_back(lineSegment(x1, y1, x2, y2));
-		updateCls = true;
+		    updateCls = true;
 	}
+		else if (cmd.find("Line") < cmd.size()) {
+			cutPlace = 0;
+			double x1 = read(cmd);
+			double y1 = read(cmd);
+			double x2 = read(cmd);
+			double y2 = read(cmd);
+			lineTot.push_back(line(x1, y1, x2, y2));
+			updateCls = true;
+		}
+		else if (cmd.find("Line-ray") < cmd.size()) {
+			cutPlace = 0;
+			double x1 = read(cmd);
+			double y1 = read(cmd);
+			double x2 = read(cmd);
+			double y2 = read(cmd);
+			lineRayTot.push_back(lineRay(x1, y1, x2, y2));
+			updateCls = true;
+		}
 	return 0;
 }

@@ -1,12 +1,16 @@
 ﻿  main.cpp
-E:\github_file\FinalTest\FinalTest\main.cpp(30,8): warning C4018: “>=”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(34,9): warning C4018: “>=”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(39,9): warning C4018: “>=”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(43,9): warning C4018: “>=”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(48,10): warning C4018: “>=”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(51,9): warning C4018: “>=”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(90,32): warning C4018: “<”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(99,32): warning C4018: “<”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(140,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\github_file\FinalTest\FinalTest\main.cpp(144,10): warning C4018: “>”: 有符号/无符号不匹配
-E:\github_file\FinalTest\FinalTest\main.cpp(55): fatal error C1075: “{”: 未找到匹配令牌
+E:\github_file\FinalTest\FinalTest\main.cpp(31,8): warning C4018: “>=”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(35,9): warning C4018: “>=”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(40,9): warning C4018: “>=”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(44,9): warning C4018: “>=”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(49,10): warning C4018: “>=”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(52,9): warning C4018: “>=”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(93,32): warning C4018: “<”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(102,32): warning C4018: “<”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(147,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\github_file\FinalTest\FinalTest\main.cpp(151,10): warning C4018: “>”: 有符号/无符号不匹配
+E:\github_file\FinalTest\FinalTest\main.cpp(56): fatal error C1075: “{”: 未找到匹配令牌
+  polygon.cpp
+E:\github_file\FinalTest\FinalTest\polygon.cpp(118,38): error C2065: “p”: 未声明的标识符
+E:\github_file\FinalTest\FinalTest\polygon.cpp(118,41): error C2065: “q”: 未声明的标识符
+  正在生成代码...
