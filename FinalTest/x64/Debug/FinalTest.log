@@ -1,34 +1,5 @@
-﻿  circle.cpp
-  line-ray.cpp
-  line-segment.cpp
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\line-segment.cpp(76,57): error C2248: “vec::x”: 无法访问 private 成员(在“vec”类中声明)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(15): message : 参见“vec::x”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(3): message : 参见“vec”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\line-segment.cpp(76,63): error C2248: “vec::y”: 无法访问 private 成员(在“vec”类中声明)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(15): message : 参见“vec::y”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(3): message : 参见“vec”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\line-segment.cpp(77,50): error C2248: “vec::x”: 无法访问 private 成员(在“vec”类中声明)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(15): message : 参见“vec::x”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(3): message : 参见“vec”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\line-segment.cpp(77,56): error C2248: “vec::y”: 无法访问 private 成员(在“vec”类中声明)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(15): message : 参见“vec::y”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(3): message : 参见“vec”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\line-segment.cpp(78,54): error C2248: “vec::x”: 无法访问 private 成员(在“vec”类中声明)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(15): message : 参见“vec::x”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(3): message : 参见“vec”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\line-segment.cpp(78,60): error C2248: “vec::y”: 无法访问 private 成员(在“vec”类中声明)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(15): message : 参见“vec::y”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(3): message : 参见“vec”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\line-segment.cpp(79,50): error C2248: “vec::x”: 无法访问 private 成员(在“vec”类中声明)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(15): message : 参见“vec::x”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(3): message : 参见“vec”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\line-segment.cpp(79,56): error C2248: “vec::y”: 无法访问 private 成员(在“vec”类中声明)
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(15): message : 参见“vec::y”的声明
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\vec.h(3): message : 参见“vec”的声明
-  line.cpp
-  main.cpp
-F:\作业\面向对象\FinalTest\FinalTest\FinalTest\main.cpp(136,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-  point.cpp
-  polygon.cpp
+﻿  main.cpp
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\main.cpp(140,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
   vec.cpp
   正在生成代码...
+  FinalTest.vcxproj -> F:\作业\面向对象\FinalTest\FinalTest\FinalTest\x64\Debug\FinalTest.exe

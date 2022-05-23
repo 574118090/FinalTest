@@ -109,15 +109,18 @@ int polygon::PointPosition(point a, polygon b)
 	point c = point(a.x + 0.1, a.y + 0.1);
 	c.x *= 114514, c.y *= 114514;
 	edge* flag = b.pointFst;
-	if (polygon::OnPolygon(a, b))return 1;
+	if (polygon::OnPolygon(a, b))return 2;//2:在多边形上
+	int res = 0;
 	for (register int i = 0; i < b.pointMalloc; i++) {
 		point nowP = flag->p;
 		point nowQ = flag->next->p;
 		flag = flag->next;
 
-		lineSegment now1 = new lineSegment(p, q);
+		lineSegment now1(nowP, nowQ);
+		lineSegment now2(a, c);
+		if (now1.ifIntersect(now2) == 2)res++;
 	}
-	return 2;
+	return res % 2;//1:多边形内 0:多边形外
 }
 
 double polygon::GetS() {
@@ -136,8 +139,6 @@ double polygon::GetC() {
 	for (register int i = 0; i < pointMalloc; i++) {
 		sum += point::GetPointDistance(flag->p, flag->next->p);
 		flag = flag->next;
-
-
 	}
 	return abs(sum);
 }

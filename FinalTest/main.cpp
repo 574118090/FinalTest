@@ -31,7 +31,7 @@ double read(string cmd) {
 	while (c > '9' || c < '0') {
 		f = (c == '-') ? -1 : 1, p++, c = cmd[p];
 		cutPlace = p;
-		if (p >= cmd.size())return _*f;
+		if (p >= cmd.size())return _ * f;
 	}
 	while (c <= '9' && c >= '0') {
 		_ = _ * 10 + (c ^ 48), p++, c = cmd[p];
@@ -157,7 +157,8 @@ signed main() {
 			double x2 = read(cmd);
 			double y2 = read(cmd);
 			lineSegmentTot.push_back(lineSegment(x1, y1, x2, y2));
-		updateCls = true;
+			updateCls = true;
+		}
 	}
 	return 0;
 }
