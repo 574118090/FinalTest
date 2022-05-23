@@ -10,6 +10,7 @@ public:
 	point(double _x, double _y);
 
 	void Output();
+	void SimpleOutput();
 	
 	static bool CompareWithX(const point a, const point b);
 	static bool CompareWithY(const point a, const point b);

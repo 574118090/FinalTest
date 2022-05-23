@@ -1,4 +1,5 @@
 #include"point.h"
+#include"vec.h"
 struct edge {
 	edge* head;
 	point p;
@@ -16,7 +17,10 @@ public:
 	void DeletePoint(point a);
 	void ChangePoint(point a, point b);
 	void OutputPoint();
+	int GetSize();
 
+	static bool OnPolygon(point a, polygon b);
+	static int PointPosition(point a, polygon b);
 private:
 	edge* pointFst;
 	edge* pointCase;

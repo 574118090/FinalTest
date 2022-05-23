@@ -1,2 +1,3 @@
 ﻿  main.cpp
+F:\作业\面向对象\FinalTest\FinalTest\FinalTest\main.cpp(136,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
   FinalTest.vcxproj -> F:\作业\面向对象\FinalTest\FinalTest\FinalTest\x64\Debug\FinalTest.exe

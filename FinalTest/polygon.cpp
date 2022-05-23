@@ -81,12 +81,35 @@ void polygon::ChangePoint(point a, point b) {
 }
 
 void polygon::OutputPoint() {
-	puts("该多边形的顶点：");
 	edge* flag = pointFst;
 	for (register int i = 0; i < pointMalloc; i++) {
-		(flag->p).Output();
+		(flag->p).SimpleOutput();
 		flag = flag->next;
 	}
+}
+
+int polygon::GetSize() {
+	return size;
+}
+
+bool polygon::OnPolygon(point a, polygon b) {
+	edge* flag = b.pointFst;
+	for (register int i = 0; i < b.pointMalloc; i++) {
+		vec veca = flag->p - a;
+		vec vecb = flag->next->p - flag->p;
+		if (Caculate::Cross(veca.x, veca.y, vecb.x, vecb.y) == 0)return true;
+		flag = flag->next;
+	}
+	return false;
+}
+
+int polygon::PointPosition(point a, polygon b)
+{
+	point c = point(a.x + 0.1, a.y + 0.1);
+	c.x *= 114514, c.y *= 114514;
+	if (polygon::OnPolygon(a, b))return 1;
+
+	return 2;
 }
 
 double polygon::GetS() {

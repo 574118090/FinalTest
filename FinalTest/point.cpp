@@ -11,6 +11,10 @@ void point::Output()
 {
 	std::cout << "(" << x << "," << y << ")\n";
 }
+void point::SimpleOutput()
+{
+	std::cout << "(" << x << "," << y << "),";
+}
 bool point::CompareWithX(const point a,const point b)
 {
 	return a.x > b.x;
