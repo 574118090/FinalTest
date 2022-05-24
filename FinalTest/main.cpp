@@ -187,7 +187,7 @@ signed main() {
 			ClearOne();
 			puts("");
 			ClearOne();
-			cout << "ans = " << ans << endl;
+			cout << "ans = " << ans << endl;//输出提示信息
 			//先在这里加两行
 		}
 		ClearOne();
@@ -274,6 +274,6 @@ signed main() {
 			int p = read(cmd);
 			ans = polygonTot[p].GetC();
 		}
-	}
+	}//主要功能的实现
 	return 0;
 }
